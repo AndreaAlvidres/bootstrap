@@ -1,5 +1,15 @@
 /* styles.css */
-
+:root {
+--mauve-shadow: #754668ff;
+--deep-teal: #587d71ff;
+--medium-jungle: #4daa57ff;
+--celadon: #b5dda4ff;
+--papaya-whip: #f9ecccff;
+.btn-primary {
+    background-color: var(--mauve-shadow);
+    border-color: var(--mauve-shadow);
+}
+}
 * {
 	font-family: Arial;
 }
